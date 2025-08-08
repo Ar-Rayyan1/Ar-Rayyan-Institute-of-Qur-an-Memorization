@@ -96,8 +96,8 @@
      
     }
 
-    #home { background: green; font-size: 20px; margin-top: -150px;}
-    #about { background: yellowgreen; font-size: 20px; margin-top: -100px; }
+    #home { background: green; font-size: 20px; margin-top: -100px;}
+    #about { background: yellowgreen; font-size: 20px; margin-top: -100px; height: 220vh;}
     #registration { background: green; color: green; font-size: 25px; }
     #contact { background: white; color: green; font-size: 25px; }
 
@@ -106,7 +106,9 @@
         display: none;
       }
 
-       #about { background: yellowgreen; font-size: 20px; margin-top: -100px;  height: 450vh;}
+       #about { background: yellowgreen; font-size: 20px; margin-top: -100px;  height: 400vh;}
+
+  #registration { background: green; color: green; height: 250vh;  font-size: 25px; }
 
       .hamburger {
         display: flex;
@@ -139,6 +141,7 @@
   width: 100%;
    text-align: center;
   padding-right: 50px;
+
 }
 
 
@@ -157,12 +160,16 @@
 
     .flyer{
  width: 100%;
-  max-width: 600px;
+  max-width: 430px;
   aspect-ratio: 3/1.5;
   height: auto;
   border-radius: 10px;
+  box-shadow: 0 4px 10px  white;
 margin-top: 30px;
+
       }
+
+      
 
     }
 
@@ -192,7 +199,7 @@ margin-top: 30px;
   padding: 30px;
   border-radius: 15px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-  width: 100%;
+  width: 90%;
   max-width: 600px;
   text-align: center;
   padding-right: 50px;
@@ -203,6 +210,14 @@ margin-top: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.img-con{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  
 }
 
 .signup-container2 {
@@ -233,7 +248,7 @@ margin-top: 30px;
 }
 
 .signup-container input {
-  width: 100%;
+  width: 80%;
   padding: 12px;
   margin: 10px 0;
   border: 1px solid green;
@@ -251,7 +266,7 @@ margin-top: 30px;
 }
 
 #country{
-  width: 100%;
+  width: 80%;
   padding: 12px;
   margin: 10px 0;
   border: 1px solid green;
@@ -260,7 +275,7 @@ margin-top: 30px;
 }
 
 .signup-container button {
-  width: 100%;
+  width: 80%;
   padding: 12px;
   background-color: green;
   color: white;
@@ -334,11 +349,11 @@ margin-top: 30px;
 
 .flyer{
   width: 100%;
-  max-width: 1100px;
+  max-width: 1050px;
   aspect-ratio: 3/1.5;
   height: auto;
   border-radius: 10px;
-  box-shadow: 0 4px 10px  white;
+  box-shadow: 0 4px 10px  rgb(0, 0, 0);
 margin-top: 30px;
 
 }
@@ -353,6 +368,12 @@ margin-top: 30px;
   color: white;
 }
 
+.head3{
+  font-size: 22px;
+  text-align: center;
+  color: green;
+}
+
 .p-text{
   font-size: 20px;
   font-weight: 400;
@@ -361,12 +382,27 @@ margin-top: 30px;
   color: white;
 }
 
+.p-text3{
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  padding-right: 30px;
+  color: green;
+}
 
 .p-text2{
   font-size: 20px;
   font-weight: 400;
   text-align: left;
   padding: 3px;
+}
+
+.p-text4{
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  padding: 3px;
+  color: green;
 }
 
 .about-div{
@@ -416,9 +452,9 @@ margin-top: 30px;
       to nuturing a generation of Muslims, wether you are beginning your journey to
       deepen your connection with the Book of Allah.
     </p>
-   
-    <img src="flyer.jpg"  class="flyer" alt="">
-    <br><br>
+   <div class="img-con"><img src="flyer.jpg"  class="flyer" alt=""></div>
+    
+    <br>
      <p class="p-text">Join us and experience a nuturing environment that fosters
     spiritual growth, discipline, and lifelong devotion to the Qur'an.
      </p>
@@ -442,13 +478,13 @@ margin-top: 30px;
        character-building, and tafsir (interpretation) alongside memorization to ensure that students live by what they learn.</p>
     </div>
       <div class="about-div">
-        <h2 class="head1">🧕🏽 Who We Serve</h2>
+        <h2 class="head1">🧕🏽 Who We Serve</h2><br>
       <p class="p-text">Our institute welcomes learners of all ages and backgrounds — from young children taking their first steps in Islamic
          education, to adults seeking to complete their memorization, refresh their recitation, or reconnect with the Qur’an. Whether 
         you’re a parent looking to enroll your child or an individual striving to achieve this noble milestone, our doors are open to you.</p>
       </div>
       <div class="about-div">
-        <h2 class="head1">📖 Our Programs</h2>
+        <h2 class="head1">📖 Our Programs</h2><br>
       <p class="p-text2">Full-Time Tahfeez Program
 A structured, daily memorization program tailored for dedicated students, with focus on mastering Tajweed and revision.
 </p>
@@ -467,7 +503,7 @@ Specialized sessions conducted in a comfortable, supportive environment tailored
 </div>
       
  <div class="about-div">
-        <h2 class="head1">🏫 Why Choose Us?</h2>
+        <h2 class="head1">🏫 Why Choose Us?</h2><br>
       <p class="p-text2">✔️ Qualified, experienced, and God-fearing teachers</p>
       <p class="p-text2">✔️ A calm, disciplined, and spiritually uplifting environment</p>
       <p class="p-text2">✔️ Regular assessments and revision schedules</p>
@@ -476,7 +512,7 @@ Specialized sessions conducted in a comfortable, supportive environment tailored
       <p class="p-text2">✔️ Affordable fees and scholarship opportunities for dedicated learners</p>
       </div>
        <div class="about-div">
-        <h2 class="head1">📍 Location & Learning Options</h2>
+        <h2 class="head1">📍 Location & Learning Options</h2><br>
       <p class="p-text">Our institute is located in [City/Area Name], and we offer both physical and online
          learning options to make it easier for students near and far to benefit. Our online platform includes live sessions, personalized feedback, and digital
          resources to make memorization effective and enjoyable from anywhere</p>
@@ -484,6 +520,7 @@ Specialized sessions conducted in a comfortable, supportive environment tailored
 
  <div class="about-div">
         <h2 class="head1">🙏🏽 Our Mission</h2>
+        <br>
       <p class="p-text">To raise a generation of confident, God-conscious Muslims who carry the Qur’an in their 
         hearts and practice its teachings in their lives.</p>
       </div>
@@ -493,7 +530,7 @@ Specialized sessions conducted in a comfortable, supportive environment tailored
     <div class="reg-con">
     <div   class="signup-container3">
       <b class="head1" >Begin Your Journey of Divine Knowledge</b>
-      <br>
+      <br><br>
   <p class="p-text">We invite you to join our esteemed Qur'an Memorization Institute - a center of execellence 
     dedicated to nuturing hearts with the words of Allah. Wether you are starting your journey or seeking to
   perfect your memorization, our experienced instructors and spiritually enriching environment are here to
@@ -506,7 +543,7 @@ guide you every step of the way.</p>
 <div class="signup-container">
   
     <h2>Register!</h2>
-    <form action="https://formspree.io/f/xnnvyobz" method="POST">
+    <form action="https://formspree.io/f/xwpqwqge" method="POST">
       <input type="text" name="name" placeholder="First Name" required />
       <input type="text" name="name" placeholder="Last Name" required />
       <input type="email" name="email" placeholder="Email Address" required />
@@ -539,29 +576,52 @@ guide you every step of the way.</p>
 <br><br>
 <div   class="signup-container3">
       <b class="head1" >Thank you for choosing to walk the path of the Qur’an</b>
-      <br>
+      <br><br>
   <p class="p-text">Once you have submitted your registration, our team will review your application and contact you shortly
     with further instructions. May Allah make this journey easy and full of blessing for you. 
   </p>
-<p class="p-text">"The best among you are those who learn the Qur'an and teach it." - Prophet Muhammad
+<p class="p-text">"The best among you are those who learn the Qur'an and teach it." - Prophet Muhammad(SAW)
 </p>
     </div>
 
 </div>
   </section>
-  <section id="contact">
   
+  <section id="contact">
+     <div class="reg-con">
+    <div  class="signup-container3">
+     <b class="head3" >📩 Get in Touch with Us</b>
+      <br><br>
+  <p class="p-text3">Have a questions, need more information, or wish to visit our institute? We are here to help you
+    every step of the way. Reach out to us today, and our team will respond as soon as possible.
+  </p>
+    </div>
+<br><br>
+    
 
          <div class="signup-container2">
     <h2>Contact Us</h2>
-    <form action="" method="POST">
+    <form action="https://formspree.io/f/xdkdpdqg" method="POST">
       <input type="text" name="name" placeholder="First Name" required />
       <input type="text" name="name" placeholder="Last Name" required />
       <input type="email" name="email" placeholder="Email" required/>
      <a href="http://wa.me/2348141210826"><button type="submit">Contact Us</button></a> 
-    </form>    
-      </div>
-    
+    </form>      
+  </div>
+  <br><br>
+    <div  class="signup-container3">
+     <b class="head3" >For More Enquires</b>
+      <br><br>
+  <p class="p-text4">
+    If your question requires urgent attention or you prefer to speak directly with us, please call:
+  </p>
+  <p class="p-text4">+2348141210826</p>
+  <p class="p-text4">+2349076183673</p>
+  <p class="p-text4">+2348070585978</p>
+  <p class="p-text4">+2349134920480</p>
+  <p class="p-text4">Or send message via WhatsApp by filling the contact form. </p>
+    </div>
+    </div>
   </section>
 
   <footer class="footer">2025 @ Ar-Rayyan Institute of Qur'an Memorization.</footer>
